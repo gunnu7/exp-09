@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Magazine</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f2f6ff;
+            margin: 20px;
+            font-size: 18px; /* Bigger base font */
+        }
+        h1 {
+            text-align: center;
+            font-size: 36px; /* Bigger title */
+        }
+        h2 {
+            text-align: center;
+            font-size: 26px; /* Bigger section headings */
+        }
+        .box {
+            background: #ffffff;
+            border: 1px solid #999;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+        .article-img {
+            width: 260px;
+            height: 160px;
+            margin: 5px;
+            border: 1px solid #555;
+        }
+        .gallery {
+            text-align: center;
+        }
+        .btn {
+            background-color: #0066cc;
+            color: white;
+            padding: 10px 16px;
+            border: none;
+            font-size: 18px;
+        }
+        input {
+            padding: 10px;
+            width: 60%;
+            font-size: 18px;
+        }
+        ul {
+            font-size: 20px; /* Bigger list text */
+        }
+        p {
+            font-size: 19px; /* Bigger paragraph text */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Pulse Online Magazine</h1>
+    <p style="text-align:center;">Your daily dose of news & stories</p>
+
+    <!-- Sections -->
+    <div class="box">
+        <h2>Topics</h2>
+        <ul>
+            <li>Technology</li>
+            <li>Health</li>
+            <li>Travel</li>
+            <li>Culture</li>
+        </ul>
+    </div>
+
+    <!-- Featured Article -->
+    <div class="box">
+        <h2>Featured Article</h2>
+
+        <div class="gallery">
+            <img class="article-img" 
+                 src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=60"
+                 alt="Featured">
+        </div>
+
+        <p><b>The Future of Smart Cities</b></p>
+        <p>How technology is shaping transportation, safety, and urban living.</p>
+    </div>
+
+    <!-- More Articles -->
+    <div class="box">
+        <h2>Latest Articles</h2>
+
+        <div class="gallery">
+            <img class="article-img" 
+                 src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=60"
+                 alt="Tech Article">
+
+            <img class="article-img" 
+                 src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=600&q=60"
+                 alt="Health Article">
+
+            <img class="article-img" 
+                 src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=60"
+                 alt="Travel Article">
+        </div>
+
+        <p><b>AI in Daily Life</b> – How artificial intelligence is becoming part of everyday work.</p>
+        <p><b>Healthy Morning Habits</b> – Simple steps to boost productivity.</p>
+        <p><b>Top Beach Destinations</b> – Best coastal places to visit this year.</p>
+    </div>
+
+    <!-- Subscription -->
+    <div class="box">
+        <h2>Subscribe</h2>
+        <p>Enter your email to get weekly updates:</p>
+
+        <input type="email" placeholder="Enter your email">
+        <button class="btn">Subscribe</button>
+    </div>
+
+</body>
+</html>
